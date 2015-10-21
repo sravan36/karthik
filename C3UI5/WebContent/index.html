@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv='Content-Type' content='text/html;charset=UTF-8'/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="shortcut icon" href="Images/fevicon.png" type="image/x-icon">
+		<!----------------------------------- Stylesheet1 ---------------------------------------------------------------> 
+				<link rel="stylesheet" href="Styles/style.css"/>
+		<!----------------------------------- End of Stylesheet1 ---------------------------------------------------------------> 
+		<script type="text/javascript">
+
+	
+	</script>
+	
+		<script src="resources/sap-ui-core.js"
+				id="sap-ui-bootstrap"
+				data-sap-ui-libs="sap.m,sap.ui.commons"
+				data-sap-ui-theme="sap_bluecrystal"
+				data-sap-ui-xx-bindingSyntax="complex"
+				data-sap-ui-resourceroots='{"C3UI5": "./"}'>
+		//https://sapui5.netweaver.ondemand.com
+				</script>
+		<!-- only load the mobile lib "sap.m" and the "sap_bluecrystal" theme -->
+
+		<script>
+				
+		/*Native Code*/
+		
+		/* sap.ui.localResources("dashboard");
+				var app = new sap.m.App({initialPage:"iddashboard11"});
+				var page = sap.ui.view({id:"iddashboard11", viewName:"dashboard.dashboard1", type:sap.ui.core.mvc.ViewType.JS});
+				app.addPage(page);
+				app.placeAt("content"); */
+				
+			/* End of Native Code*/
+		
+		/*Initializing Component.js  */
+				
+			sap.ui.getCore().attachInitEvent(function() {
+					var oComponentContainer = new sap.ui.core.ComponentContainer("mainContainer",{
+						height : "99%",
+						name : "C3UI5"
+					});
+					oComponentContainer.placeAt("content");
+				});
+			
+			/*End of Initializing Component.js  */
+				
+			</script>
+
+	</head>
+	<style>
+		.sapMPage{
+		position: absolute}
+	</style>
+	<body class="sapUiBody" role="application">
+		<div id="content"></div>
+	</body>
+	<!----------------------------------- Stylesheet2 ---------------------------------------------------------------> 
+				<link rel="stylesheet" href="Styles/style1.css"/>
+	<!----------------------------------- End of Stylesheet2 ---------------------------------------------------------------> 
+		
+</html>

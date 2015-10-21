@@ -1,0 +1,290 @@
+.sapMTileContent{
+    background-color:#F5BCA9;
+},
+#nav1,#page1,#page2,#page3,#tile_con{
+	position: absolute;
+	background-color:#ffffff;	
+	} 
+#btnHome-img,#btnLogout-img{
+	color:#ED1556;
+	}
+#mainText,#txt_C3{
+  color:#ED1556;
+  font-weight: bold;
+  font-size: 18px;	
+}
+.sapMTC .sapMTile, .sapMTC .sapMCustomTile{
+	width:7rem;
+	height:7.5rem;
+	border: 1px solid #ED1556;
+	-webkit-box-shadow: 7px 7px 20px 0px rgba(0,0,0,0); /* Safari and Chrome */
+	-moz-box-shadow: 7px 7px 20px 0px rgba(0,0,0,0); /* Firefox */
+	-ms-box-shadow: 7px 7px 20px 0px rgba(0,0,0,0); /* Internet Explorer */
+	-o-box-shadow: 7px 7px 20px 0px rgba(0,0,0,0); /* Opera */
+	box-shadow: 7px 7px 20px 0px rgba(0,0,0,0); /* CSS3 */
+	-webkit-border-bottom-right-radius:0.5em;
+	-webkit-border-top-right-radius:0.5em;
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	}            
+              
+        #processCalloTextView3,#processCalloTextView4,#processCalloTextView5,#processCalloTextView17{
+		padding: 0 9px 0 0;
+		}
+		#processCalloTextView9,#processCalloTextView10,#processCalloTextView11,#processCalloTextView12{
+		background-color:#FFFFFF; 
+		}
+		
+		#processCalloTextView13,#processCalloTextView14,#processCalloTextView15{
+		padding: 0 0 0 9px;
+		background-color:#FFFFFF;
+		}
+		#processCalloMatrixLayoutCell7{
+		padding: 5px 5px 5px 7px;
+		background-color:#F6F9FE;
+		}
+		#processCalloMatrixLayout6{
+		margin: 5px 5px 5px 7px;
+		background-color:#F6F9FE;
+		}
+		#processCalloMatrixLayoutCell8{
+		background-color:#F0F5FE;
+		}
+		#processCalloMatrixLayoutCell12{
+		background-color:#F0F5FE;
+		}
+		#processCalloMatrixLayoutCell13{
+		background-color:#F6F9FE;
+		}
+		#processCalloMatrixLayout1,#processCalloMatrixLayoutCell7{
+		margin:9px;
+		}
+		.sapUiTvErr{
+		color:#F3051B;
+		}
+		.sapUiTvSucc{
+		color:#16E000;
+		}
+             
+              #backg,#bar1{
+                 background-color: #FFFFFF;                   
+              }
+              #btn2-img,#txt{
+              color: rgba(231, 22, 81, 0.8);
+              }
+              
+              #appHeader{
+              
+              border:#E0005A;
+              border-top-color: #FFFFFF;
+              border-top-style: solid;
+              border-top-width: 10px;
+              background-image: -webkit-gradient(linear,left top,left bottom,from(#FFFFFF),to(#FFFFFF));
+              
+              }
+              /* .sapUiBtnS.sapUiBtnNorm.sapUiBtnEmph.sapUiBtnStd{
+              background-color: rgb(0, 191, 255);
+              } */
+             
+              #p1-hdr,#p2-hdr,#p3-hdr,#pb1-hdr,#pd1-hdr,#pa1-hdr{
+              
+              background-color: rgba(231, 22, 81, 0.8);
+              border-bottom-width: 2px;
+              border-bottom-style: solid;
+              border-bottom-color: rgb(252, 8, 96);
+                }
+              #p1-title,#p2-title,#p3-title,#pb1-title,#pd1-title,#pa1-title,#lo1{
+              
+              color : #FFFFFF
+              
+              }
+              
+              #but4,#back_asp,#ok,#bv1,#bvr1,#ok1,#canc{
+              background-color: rgba(231, 22, 81, 0.8);
+              color : #ffffff;
+              hover-background-color:#9F9FDD;
+              }
+              
+              #but3:hover
+              {
+              background-color:#8445C9;
+              }
+              
+              #tf1_asp,#tf2_asp,#tf3_asp,#tf4_asp,#tf5_asp,#tf6_asp,#tf7_asp,#tip,#dro,#ta101
+              {
+               border:#F3EDED;
+               background-color:#F3EDED;
+               border-top-color: #F3EDED;
+               border-top-style: inset;
+               border-bottom-color: #F3EDED;
+               border-bottom-style: inset;
+               border-left-color: #F3EDED;
+               border-left-style: inset;
+               border-right-color: #F3EDED;
+               border-right-style: inset;  
+              }
+              
+              #tf8_asp,#tf9_asp,#tf10_asp,#tf9_asp_new
+              {
+               border:#F3EDED;
+               border-top-color: #F3EDED;
+               border-top-style: inset;
+               border-bottom-color: #F3EDED;
+               border-bottom-style: inset;
+               border-left-color: #F3EDED;
+               border-left-style: inset;
+               border-right-color: #F3EDED;
+               border-right-style: inset;
+               
+              }
+             
+              
+              #backg,#content,#content2{
+                 background-color: #FFFFFF;                   
+              }
+              .sapUiAppHdr{
+              background-image: none 
+              }
+               #apphead{
+              
+              border:#E0005A;
+              border-top-color: #FFFFFF;
+              border-top-style: solid;
+              border-top-width: 10px;
+              background-image: -webkit-gradient(linear,left top,left bottom,from(#FFFFFF),to(#FFFFFF));
+              background-color: #FFFFFF;
+              }
+              
+              #apphead-logoffBtn{
+              
+              color : #E0005A;
+              
+              }            
+                             
+              #p1-hdr,#p2-hdr,#p3-hdr,#pb1-hdr,#pd1-hdr,#pa1-hdr{
+              
+              background-color: rgba(231, 22, 81, 0.8);
+              border-bottom-width: 2px;
+              border-bottom-style: solid;
+              border-bottom-color: rgb(252, 8, 96);
+                }
+              #p1-title,#p2-title,#p3-title,#pb1-title,#pd1-title,#pa1-title{
+              
+              color : #FFFFFF
+              
+              }
+              #content,#mainBar{
+	background-color:#ffffff;	
+} 
+              #butr,#b1,#bs,#bc,#buutr,#bh,#bv1,#bvr1,#sub_dwn,#reset_dwn{
+              
+              background-color: rgba(231, 22, 81, 0.8);
+              color : #ffffff
+              
+              }
+              
+              #car1-prevbutton,#car1-nextbutton{
+              
+              background-color: rgba(236, 192, 205, 0.8);
+              color : #ffffff;
+              }
+              
+              .c1{
+              overflow : scroll;
+              }
+              
+              
+              
+              #icon{
+              background-color: #ffffff;
+              color : #31B404
+              }
+              #in12{
+              
+              color : #ffffff
+              }
+             .sapUiTbCont{
+              background-color: rgba(231, 22, 81, 0.8);
+             
+             }
+             #lo1,#nor,#tv{
+             
+               color : #ffffff
+             
+             }
+             #butr{
+             float:right
+             }
+          
+             .myButton{
+             
+              background-color: rgba(231, 22, 81, 0.8);
+              color:#ffffff
+             }
+             .sapUiTableCtrl:hover {
+               background-color: #ff9999; 
+             }
+             /* src="resources/sap-ui-core.js"*/
+             
+             
+             /*    .sapUiTableRowHvr {
+                      background-color:  #E0005A;
+                      border-right-color:  #E0005A;                      
+                } */
+                .sapUiTableRowHdr{
+                      background-color:  #E0005A;
+                      border-right-color:  #E0005A;                      
+                }
+           /*      .sapUiTableRowSel{
+                      background-color:  #E0005A;
+                      border-right-color:  #E0005A;                      
+                } */
+              #backg{
+                 background-color: #FFFFFF;                   
+              }
+              
+              #appHeader{
+              
+              border:#E0005A;
+              border-top-color: #FFFFFF;
+              border-top-style: solid;
+              border-top-width: 10px;
+              background-image: -webkit-gradient(linear,left top,left bottom,from(#FFFFFF),to(#FFFFFF));
+              
+              }
+              
+              #p1-hdr{
+              
+              background-color: rgba(231, 22, 81, 0.8);
+              border-bottom-width: 2px;
+              border-bottom-style: solid;
+              border-bottom-color: rgb(252, 8, 96);
+                }
+              #p1-title{
+              
+              color : #FFFFFF
+              
+              }              
+              #butr,#b1,#b2{
+              
+              background-color: rgba(231, 22, 81, 0.8);
+              color : #ffffff
+              
+              }
+              #nor_asp,#tv_asp,#No_asp,#now_asp,#nor,#tv{
+                color : #ffffff;
+               }
+               
+              #content{
+              background-color: #ffffff
+              }
+               .sapUiTbCont{              
+              background-color: rgba(231, 22, 81, 0.8);
+              } 
+             }
+             
+             /*https://sapui5.hana.ondemand.com  */
+     
+	
+	
+	
